@@ -1,0 +1,64 @@
+body {
+    background-color: #14131A;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+}
+
+.conteiner {
+    max-width: 1140px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;   
+
+    margin-bottom: 80px;
+}
+
+/* Logo */
+.logo__link {
+    display: inline-block;
+    margin-right: 50px;   
+}
+
+/* Nav */
+.nav__menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav__menu__item a {
+    margin-right: 30px;
+}
+
+.nav__menu__link {
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* Date */
+.film__date {
+    display: block;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    margin-bottom: 40px;
+}
+
+.film__discription {
+    width: 423px;
+    height: 66px;
+    font-size: 16px;
+    line-height: 140%;
+    color: rgba(255, 255, 255, 0.8);  
+
+    margin-top: 40px;
+}
